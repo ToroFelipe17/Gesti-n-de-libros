@@ -16,6 +16,5 @@ Aplicación web para la gestión de libros en una biblioteca. Permite registrar,
 - Seguridad con validaciones de datos.  
 
 ## 🚀 Instalación y uso
-1. Clona el repositorio:  
    ```bash
-   git clone https://github.com/TU_USUARIO/gestion-libros.git
+  https://github.com/ToroFelipe17/Gesti-n-de-libros/tree/main
