@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Inventarios Autónoma</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h1>Inventarios Autónoma</h1>
+            </div>
+            <div class="nav_links">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main_content">
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Gestione sus inventarios de manera sencilla y eficiente.</p>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos un equipo dedicado a ofrecer soluciones prácticas para la gestión de inventarios.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, contáctenos a través de nuestro correo: felipe.toro2@cloud.uautnoma.cl</p>
+        </section>
+
+        <section class="inventory_section">
+            <h2>Gestión de Inventarios</h2>
+            <form id="inventory-form" class="inventory_form">
+                <input type="text" id="book-input" placeholder="Nombre del libro" required>
+                <button type="submit">Agregar</button>
+            </form>
+            <div class="inventory_list">
+                <ul id="inventory-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Gestión Inventarios Autónoma. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,600;1,700&display=swap');
+
+/* Normalización de texto y diseño básico */
+body {
+    font-family: "Poppins", serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+header.hero {
+    background: #c00000;
+    color: white;
+    padding: 1rem 0;
+}
+
+.nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.nav_logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav_links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links a:hover {
+    text-decoration: underline;
+}
+
+.main_content {
+    padding: 2rem 1rem;
+}
+
+footer.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+}
+
+/* Estilos para la gestión de inventarios */
+.inventory_section {
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inventory_section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.inventory_form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inventory_form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.inventory_form button {
+    padding: 0.5rem 1rem;
+    background: #c00000;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.inventory_form button:hover {
+    background: #a00000;
+}
+
+.inventory_list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.inventory_list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.inventory_list button {
+    background: #c00000;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.inventory_list button:hover {
+    background: #a00000;
+}
